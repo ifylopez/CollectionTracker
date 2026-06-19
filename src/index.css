@@ -1,0 +1,20 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, #root { margin: 0; padding: 0; min-height: 100%; }
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: #E8DEC4;
+  color: #1F1A14;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button { font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+
+/* Scrollbar consistente con la paleta de papel */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #D9CCAC; }
+::-webkit-scrollbar-thumb { background: #6B5D45; border: 2px solid #D9CCAC; }
+::-webkit-scrollbar-thumb:hover { background: #3A3128; }
